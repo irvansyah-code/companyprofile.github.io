@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesidenav.css">
+    <link rel="shortcut icon" href="img/icon/browsericon1.png">
+
+    <title>Irvansyah</title>
+    <style>
+      #html {
+        position: relative;
+      }
+      #body {
+        margin-bottom: 100px;
+      }
+      .navbar-brand {
+        padding-left: 10px;
+      }
+      .jumbotron{
+        z-index: 1000;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255,255,255,0.2); 
+        width: 100%;
+        margin-top: 40%;
+      }
+      .btn {
+        border-radius: 10px;
+        width: 100px;
+      }
+      .btn-secondary {
+        object-position: center;
+        padding-right: 10px;
+      }
+      .btn-outline-success {
+        width: 45px;
+        margin-right: 10px;
+      }
+      #footer1 {
+        background-color: #212529;
+        padding: 5px;
+        color: white;
+      }
+      #footer2 {
+        background-color: black;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+      }
+      #layanan {
+        width: 100%;
+        background-color: #f8f9fa!important;
+      }
+      #content {
+      background-color: #ddd;
+      color: white;
+      text-shadow: rgba(255,255,255,1);
+      }
+      #content img {
+      border-radius: 60px 2px 2px;
+      border: 1px none #ddd;
+      padding: 1px;
+      }
+      #judul {
+        background-color: #f8f9fa!important;
+      }
+      .clients {
+        text-align: center;
+      }
+
+      /*---jombotron2---*/
+      .jumbotron2 {
+        height: 200%;
+        text-align: center;
+        position: relative;
+        animation: mymove2 2s;
+        animation-fill-mode: forwards
+      }
+      @-webkit-keyframes mymove2 {
+        from {top: -1200px;}
+        to {top: 0px;}
+      }
+
+      @keyframes mymove2 {
+        from {top: -1200px;}
+        to {top: 0px;}
+      } 
+      /*---akhir jombotron2---*/
+      
+      .logososial img:hover {
+      border-radius: 20px;
+      background-color: #eee;
+      transition: 0.3s; 
+      }
+      .logososial {
+      margin-top: 5px;
+      padding: 5px;
+      padding-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- logo -->
+  <img src="https://www.webhozz.com/assets/img/logo-persegi2.png.pagespeed.ce.F72Iia4Oqj.png" width="40" height="40" class="d-inline-block align-top"alt="">
+  <a class="navbar-brand" href="index.html">IRVAN WEBHOZZ</a>
+  <!-- akhir logo -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="career.html">Career</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- Akhir navbar -->
+
+<!-- judul -->
+<section id="judul" class="judul" style="min-height: 400px; background-color: #ddd;margin-top: 10px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-5">
+            <h3 align="center">Career</h3>
+            <hr width="30%" style="height: 1px; background-color: green;">
+      </div>
+    </div>
+  </div>
+<!-- akhir judul -->
+
+<!-- content career -->
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-lg-4 col-sm-12">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Tentang Career</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Internship / Magang</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Berkarir bersama kami</a>
+      </div>
+    </div>
+    <div class="col-lg-8 mt-4">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><h5> CAREER IRVAN WEBHOZZ </h5>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quos cupiditate voluptates earum nostrum enim nemo sequi consectetur! Iste molestiae temporibus, laborum ratione atque odio aspernatur dolorum repudiandae. At minima et, eaque optio obcaecati fugit. Harum eius, dicta! Hic quaerat assumenda nulla, ipsam. Pariatur repellat alias, delectus doloremque. Nemo iusto consectetur, amet, aut autem quos beatae eius provident quis repellendus sint, quae, voluptatem dicta voluptas. Aperiam id totam quaerat recusandae tenetur temporibus sequi, quos reiciendis ad enim laborum omnis earum..
+        </p></div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><h5> INTERNSHIP / MAGANG </h5>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates facere, quaerat architecto, facilis voluptas ullam.</p> 
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos maxime veniam corrupti distinctio voluptates explicabo nesciunt laborum aliquid officia similique harum, magni esse repudiandae optio praesentium animi rem tempore qui minus ut, sunt blanditiis voluptatem iste. Iure ea voluptas quaerat voluptatum blanditiis, illo pariatur reiciendis voluptatem voluptatibus adipisci quae inventore.</p>
+          <p>Kami menawarkan Anda program magang dalam Area Bisnis Teknik. Tidak perlu ragu untuk melamar jika Anda: </p>
+          <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore!</li>
+             <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quas eos placeat! Cum, aliquam!</li>  
+          </ul>
+          <p><b>Catatan:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dicta cum ipsa!</p>   
+          </div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><h5> BERKARIR BERSAMA KAMI </h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatibus nobis, saepe, reiciendis ducimus in fuga similique magni explicabo reprehenderit blanditiis ut laborum soluta iste, ex omnis mollitia ipsum qui ab consequuntur quo ullam! Dignissimos accusantium, nobis. Commodi eaque mollitia perspiciatis voluptatem exercitationem, assumenda maiores, earum praesentium delectus nihil, unde?</p>
+          Lorem ipsum dolor sit.
+          <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <p>Lamaran dan di kirim ke alamt email : irvansyah446@gmail.com</p>
+          <p>Atau Kepada : </p>
+            <p>IrvanWebHozz</p>
+            <p>Human Capital Departement
+            Jl. Raya Pos Pengumben No. I - 9 ( dekat Lampu Merah Kelapa Dua ) Kebon Jeruk, Jakarta Barat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- akhir content career -->
+
+<!-- footer -->
+<!-- jumbotron2 -->
+<!-- <div id="footer" class="footer"> -->
+  <div class="cointainer">
+    <div class="jumbotron2">
+      <div class="row mt-5">
+        <div class="col-lg-8 col-sm-8 mt-5">
+          <h2><b>Anda Butuh Jasa DesignWeb, <br>Company profile atau Portfolio ??</b></h2>
+          <a class="btn btn-primary" href="contact.html" role="button">Hubungin kami</a>
+        </div>
+        <div class="col-lg-4 col-sm-4 mt-5">
+            <img src="img/contact.png">
+        </div>  
+      </div>
+    </div>
+<!--   </div> -->
+  <!-- akhir jumbotron2 -->
+
+
+
+<!-- Footer1 -->
+
+  <div id="footer1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+            <img src="https://www.webhozz.com/assets/img/logo-persegi2.png.pagespeed.ce.F72Iia4Oqj.png" width="40" height="40" class="d-inline-block align-top"alt="">
+          <h3 class="navbar-brand" href="#">IRVAN WEBHOZZ</h3>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut temporibus mollitia alias, suscipit eum, maiores, voluptatibus officiis quaerat odio perspiciatis aperiam, laudantium ipsam sequi itaque.</p>
+      </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <h5>Web Hozz jakarta</h5>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br>
+          <ul class="list-group list-group-flush">
+            <a href="about.html" class="text-decoration-none text-secondary">About Us</a><hr width="100%" color="bg-secondary">
+            <a href="portfolio.html" class="text-decoration-none text-secondary">Portfolio</a><hr width="100%" color="bg-secondary">
+            <a href="contact.html" class="text-decoration-none text-secondary">Contact</a><hr width="100%" color="bg-secondary">
+            <a href="career.html" class="text-decoration-none text-secondary">Career</a><hr width="100%" color="bg-secondary">
+          </ul>
+
+      </div>
+           <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <h5>Addreass</h5>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br>
+          <p>Jl. Al Mubaroq II No.6 Joglo - Jakarta Barat.</p>
+          <b> Telphone 0813 1234 6670</b><br>
+          <b>WA : 0813 1234 6670</b><br>
+          <b>email : irvansyahh787@gmail.com</b><br>
+          <div class="logososial">
+            <a href=""><img src="img/icon/whatsapp2.png"></a>&nbsp
+            <a href="https://web.facebook.com/"><img src="img/icon/facebook2.png"></a>&nbsp
+            <a href=""><img src="img/icon/twitter2.png"></a>&nbsp
+            <a href=""><img src="img/icon/instagram2.png"></a>&nbsp
+          </div>
+      </div>
+           <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+            <h5>Store Information</h5>
+            <div class="progress" style="height: 2px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <br>
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ex voluptates quas! Harum, fuga accusamus quaerat, voluptate, voluptas enim amet modi natus delectus excepturi iure consequatur atque. Non velit aliquid cumque laborum, repellat voluptates veritatis!</p>
+          </div>
+    </div>
+  </div>
+  <!-- Akhir footer2 -->
+
+  <!-- Footer2 -->
+  <div id="footer2">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mt-3">
+          <p align="center">@ Copyright IrvanWebHozz. All Right Reseved <br>2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Akhir footer2  -->
+<!-- akhir footer -->
+
+<!-- sidenav -->
+<div id="mySidenav" class="sidenav">
+  <a href="https://line.me/id/" id="line">Line&nbsp <img src="img/icon/line1.png"></a>
+  <a href="https://id.pinterest.com/" id="pinterest">Pinterest&nbsp <img src="img/icon/pinterest1.png"></a>
+  <a href="https://web.telegram.org/#/login" id="telegram" >Telegram&nbsp <img src="img/icon/telegram1.png"></a>
+  <a href="https://www.youtube.com/?hl=id&gl=ID" id="youtube">Youtube&nbsp <img src="img/icon/youtube1.png"></a>
+  
+</div>
+<!-- akhirsidenav -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

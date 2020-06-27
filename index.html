@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesidenav.css">
+    <link rel="shortcut icon" href="img/icon/browsericon1.png">
+
+    <title>Irvansyah</title>
+    <style>
+      html {
+        position: relative;
+      }
+      body {
+        margin-bottom: 100px;
+      }
+      .navbar-brand {
+        padding-left: 10px;
+      }
+      .btn {
+        border-radius: 10px;
+        width: 100px;
+      }
+      .btn-secondary {
+        object-position: center;
+        padding-right: 10px;
+      }
+      .btn-outline-success {
+        width: 45px;
+        margin-right: 10px;
+      }
+      .card img {
+        border-radius: 70px 20px 70px 20px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+      }
+      #footer1 {
+        background-color: #212529;
+        padding: 5px;
+        color: white;
+      }
+      #footer2 {
+        background-color: black;
+      }
+
+      /*----layanan----*/
+      #layanan {
+        width: 100%;
+        background-color: #f8f9fa!important;
+      }
+      .layanan .collayanan1 {
+        opacity: 0;
+        transform: translate(0, -40px);
+        transition: .5s;
+      }
+      
+      .layanan .collayanan1.tampil {
+        opacity: 1;
+        transform: translate(0,0);
+        background-color: 0px;
+        position: relative;
+        animation: mymove 2s;
+        animation-fill-mode: forwards; 
+      }
+      @-webkit-keyframes mymove {
+        from {left: -150px;}
+        to {left: 0px;}
+      }
+      @keyframes mymove {
+        from {left: -150px;}
+        to {left: 0px;}
+      } 
+      .layanan .collayanan2 {
+        opacity: 0;
+        transform: translate(0, -40px);
+        transition: .5s;
+      }
+      .layanan .collayanan2.tampil {
+        opacity: 1;
+        transform: translate(0,0);
+        background-color: 0px;
+        position: relative;
+        animation: mymove 3s;
+        animation-fill-mode: forwards;
+        margin-right: -90px; 
+      }
+      @-webkit-keyframes mymove {
+        from {right: 70px;}
+        to {right: 0px;}
+      }
+
+      @keyframes mymove {
+        from {right: 70px;}
+        to {right: 0px;}
+      } 
+      /*----akhir layanan----*/
+
+      /*---partner----*/
+      .outpartner {
+        opacity: 0;
+        /*transform: translate(0, -40px);*/
+        transition: .5s;
+      }
+
+      .outpartner.tampil {
+        opacity: 1;
+        transform: translate(0,0);
+        position: relative;
+        animation: mymove1 2s;
+        animation-fill-mode: forwards; 
+      }
+      @-webkit-keyframes mymove1 {
+        from {right: -1000px;}
+        to {right: 0px;}
+      }
+
+      @keyframes mymove1 {
+        from {right: -1000px;}
+        to {right: 0px;}
+      } 
+      /*---Akhir Partner---*/
+
+      #judul {
+        background-color: #f8f9fa!important;
+        margin-bottom: 10px;
+      }
+      .clients {
+        text-align: center;
+      }
+
+      /*---jombotron2---*/
+      .footer .jumbotron2 {
+      opacity: 0;
+      transform: translate(0, -40px);
+      transition: .5s;
+      }
+      .footer .jumbotron2.tampil {
+        opacity: 1;
+        transform: translate(0,0);
+        height: 200%;
+        text-align: center;
+        position: relative;
+        animation: mymove2 2s;
+        animation-fill-mode: forwards;
+      }
+      @-webkit-keyframes mymove2 {
+        from {top: -1200px;}
+        to {top: 0px;}
+      }
+
+      @keyframes mymove2 {
+        from {top: -1200px;}
+        to {top: 0px;}
+      } 
+      /*---akhir jombotron2---*/
+
+
+      .logososial img:hover {
+      border-radius: 20px;
+      background-color: #eee;
+      transition: 0.3s; 
+      }
+      .logososial {
+      margin-top: 5px;
+      padding: 5px;
+      padding-left: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- logo -->
+  <img src="https://www.webhozz.com/assets/img/logo-persegi2.png.pagespeed.ce.F72Iia4Oqj.png" width="40" height="40" class="d-inline-block align-top"alt="">
+  <a class="navbar-brand" href="index.html">IRVAN WEBHOZZ</a>
+  <!-- akhir logo -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="career.html">Career</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!-- Akhir navbar -->
+
+<!-- Slider -->
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;"><b>First slide label</b></h3>
+        <p><b  style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;">Nulla vitae elit libero, a pharetra augue mollis interdum.</b></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;"><b>Second slide label</b></h3>
+          <p><b style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;"><b>Third slide label</b></h3>
+          <p><b style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</b></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;"><b>Third slide label</b></h3>
+          <p><b style="text-shadow: 1px 1px 10px rgba(0,0,0,0.8); color: black;">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</b></p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- Akhir slider -->
+
+<!-- content -->
+<section id="content" class="content">
+  <div class="container">
+    <div class="card-deck mt-5">
+      <div class="col-xl-3 col-md-6 col-sm-12 mt-1">
+        <div class="card m-auto">
+          <img src="img/about-mission.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" align="center"><b>One Solusi</b></h5>
+            <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nemo, omnis. Quos optio, nulla hic saepe blanditiis et animi. Recusandae omnis sequi deleniti, itaque voluptatum!</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-12 mt-1">
+        <div class="card m-auto">
+          <img src="img/about-plan.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" align="center"><b>Integritas</b></h5>
+            <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit itaque dicta vitae eveniet sequi quae facilis, sunt illum rerum expedita! Voluptatem dolor ratione esse, eaque suscipit, nisi vitae. Maxime, quidem.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-12 mt-1">
+        <div class="card m-auto">
+          <img src="img/about-vision.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" align="center"><b>Tepat waktu</b></h5>
+            <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ipsum tenetur dicta quam sit, rerum enim doloremque eligendi alias, ducimus porro, consectetur incidunt cum fugit facilis quis esse amet expedita.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 col-sm-12 mt-1">
+        <div class="card m-auto">
+          <img src="img/about-vision.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" align="center"><b>Customer SaticFaction</b></h5>
+            <p class="card-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi similique sint totam quam porro veritatis minus velit architecto corrupti voluptate incidunt laudantium quidem ducimus distinctio, quibusdam, ex nulla vel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- akhir content2 -->
+
+<!-- layanan -->
+<div id="layanan" class="layanan">
+  <div class="container">
+    <div class="row p-3 mb-2 bg-light text-dark"  >
+        <div class="collayanan1 col-lg-6 col-md-6 col-sm-12 mt-3">
+          <h4>Product dan Layanan</h4>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ex voluptates quas! Harum, fuga accusamus quaerat, voluptate, voluptas enim amet modi natus delectus excepturi iure consequatur atque. Non velit aliquid cumque laborum, repellat voluptates veritatis!</p><br>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ex voluptates quas! Harum, fuga accusamus quaerat, voluptate, voluptas enim amet modi natus delectus excepturi iure consequatur atque. Non velit aliquid cumque laborum, repellat voluptates veritatis!</p>
+        </div><br>
+        <div class="collayanan2 col-lg-6 col-md-6 col-sm-12 mt-3">
+          <h4>Mengapa Anda Harus memilih Kami</h4>
+          <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, harum?</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque?</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugit aspernatur facilis! Minima, fugiat.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam omnis quis minima eveniet harum sint.</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- akhir layanan -->
+
+<!-- Out Partner -->
+<section id="outpartner" class="outpartner" style="min-height: 350px; background-color: #ddd">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-3">
+            <h3 align="center">Out Partner</h3>
+            <hr width="30%" style="height: 1px; background-color: green;">
+            <p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores numquam, enim vel inventore quam officiis.</p>
+      </div>
+    </div>
+  </div>
+<!-- Akhir Our Partner -->
+
+<!-- logo partner -->
+  <div id="logopartner" class="logopartner">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12" align="center" >
+          <img src="img/clients/client-1.png" class="img-fluid " alt="Responsive image">
+          <img src="img/clients/client-2.png" class="img-fluid " alt="Responsive image">
+          <img src="img/clients/client-3.png" class="img-fluid " alt="Responsive image">
+          <img src="img/clients/client-4.png" class="img-fluid " alt="Responsive image">
+          <img src="img/clients/client-5.png" class="img-fluid " alt="Responsive image">
+          <img src="img/clients/client-6.png" class="img-fluid " alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- akhir logo partner -->
+
+<!-- footer -->
+<!-- jumbotron2 -->
+<div id="footer" class="footer">
+  <div class="cointainer">
+    <div class="jumbotron2">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 mt-5">
+          <h2><b>Anda Butuh Jasa DesignWeb, <br>Company profile atau Portfolio ??</b></h2>
+          <a class="btn btn-primary" href="contact.html" role="button">Hubungin kami</a>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+            <img src="img/contact.png">
+        </div>  
+      </div>
+    </div>
+  </div>
+  <!-- akhir jumbotron2 -->
+
+  <!-- Footer1 -->
+  <div id="footer1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+            <img src="https://www.webhozz.com/assets/img/logo-persegi2.png.pagespeed.ce.F72Iia4Oqj.png" width="40" height="40" class="d-inline-block align-top"alt="">
+          <h3 class="navbar-brand" href="#">IRVAN WEBHOZZ</h3>
+          <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut temporibus mollitia alias, suscipit eum, maiores, voluptatibus officiis quaerat odio perspiciatis aperiam, laudantium ipsam sequi itaque.</p>
+      </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <h5>Web Hozz jakarta</h5>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br>
+          <ul class="list-group list-group-flush">
+            <a href="about.html" class="text-decoration-none text-secondary">About Us</a><hr width="100%" color="bg-secondary">
+            <a href="portfolio.html" class="text-decoration-none text-secondary">Portfolio</a><hr width="100%" color="bg-secondary">
+            <a href="contact.html" class="text-decoration-none text-secondary">Contact</a><hr width="100%" color="bg-secondary">
+            <a href="career.html" class="text-decoration-none text-secondary">Career</a><hr width="100%" color="bg-secondary">
+          </ul>
+
+      </div>
+           <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+          <h5>Addreass</h5>
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <br>
+          <p>Jl. Almubaroq II No.6 Joglo - Jakarta Barat.</p>
+          <b> Telphone 0813 1234 6670</b><br>
+          <b>WA : 0813 1234 6670</b><br>
+          <b>email : irvansyahh787@gmail.com</b><br>
+          <div class="logososial">
+            <a href=""><img src="img/icon/whatsapp2.png"></a>&nbsp
+            <a href="https://web.facebook.com/"><img src="img/icon/facebook2.png"></a>&nbsp
+            <a href=""><img src="img/icon/twitter2.png"></a>&nbsp
+            <a href=""><img src="img/icon/instagram2.png"></a>&nbsp
+          </div>
+      </div>
+           <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+            <h5>Store Information</h5>
+            <div class="progress" style="height: 2px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <br>
+              <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ex voluptates quas! Harum, fuga accusamus quaerat, voluptate, voluptas enim amet modi natus delectus excepturi iure consequatur atque. Non velit aliquid cumque laborum, repellat voluptates veritatis!</p>
+          </div>
+    </div>
+  </div>
+  <!-- Akhir footer2 -->
+
+  <!-- Footer2 -->
+  <div id="footer2">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mt-3">
+          <p align="center">@ Copyright IrvanWebHozz. All Right Reseved <br>2019</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+  <!-- Akhir footer2  -->
+  <!-- Akhir footer -->
+
+
+<!-- sidenav -->
+  <div id="mySidenav" class="sidenav">
+    <a href="https://line.me/id/" id="line">Line&nbsp <img src="img/icon/line1.png"></a>
+    <a href="https://id.pinterest.com/" id="pinterest">Pinterest&nbsp <img src="img/icon/pinterest1.png"></a>
+    <a href="https://web.telegram.org/#/login" id="telegram" >Telegram&nbsp <img src="img/icon/telegram1.png"></a>
+    <a href="https://www.youtube.com/?hl=id&gl=ID" id="youtube">Youtube&nbsp <img src="img/icon/youtube1.png"></a>
+  </div>
+<!-- akhirsidenav -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

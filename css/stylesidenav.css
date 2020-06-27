@@ -1,0 +1,73 @@
+
+#mySidenav a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  position: fixed;
+  margin-top: 350px;
+  z-index: 1000;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#line {
+  top: 20px;
+  background-color: #4CAF50;
+}
+#line img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: 45px;
+  padding: -10px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+#pinterest {
+  top: 80px;
+  background-color: #ff6666;
+}
+#pinterest img {
+  width: 52px;
+  height: 50px;
+  position: absolute;
+  margin-left: 5px;
+  padding: -10px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+#telegram {
+  top: 140px;
+  background-color: #2196F3;
+
+}
+#telegram img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  padding: -10px;
+  margin-top: -10px;
+}
+
+#youtube {
+  top: 200px;
+  background-color: #cc0000;
+}
+#youtube img {
+  width: 52px;
+  height: 50px;
+  position: absolute;
+  margin-left: 8px;
+  padding: -10px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
